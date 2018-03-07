@@ -1,0 +1,100 @@
+*{margin:0;padding:0;}
+body{font-family: '微软雅黑';background-color: #fff}
+a{text-decoration:none; color: #333;}
+li{list-style: none;}
+.left{float: left;}
+.right{float: right;}
+h1,h2,h3{font-weight: normal;}
+.clearfix:after{clear: both;content: '';display: block;}
+img { border:0; }
+.clearfix { zoom:1; }
+/*以上是公共样式*/
+
+.nav{
+	width: 1150px;
+	height: 160px;
+	margin: 0 auto;
+}
+.nav .left{
+	width: 400px;
+	height: 160px;
+	/*background-color: #ccc;*/
+}
+.nav img{
+	width: 220px;
+	height: 130px;
+	margin-top:30px;
+}
+.nav ul{
+	width: 625px;
+	height: 160px;
+}
+.nav ul li{
+	width: 125px;
+	height: 40px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 120px;
+	border-radius: 15px;
+}
+.nav ul li>a{
+	line-height: 40px;
+}
+.nav ul li:hover{
+	background-color: #a52025;
+}
+.nav ul li:hover a{
+	color: #f3f3f3;
+}
+#kc{
+	background-color:#a52025;
+	
+}
+#kc a{
+	color: #f3f3f3;
+}
+
+.box{
+	width: 1150px;
+	height: 450px;
+	margin: 50px auto;
+}
+.box .left{
+	width: 830px;
+	height: 450px;
+	background-image: url(../images/bofang.jpg);
+	background-size: 100% 100%;
+}
+.box .right{
+	width: 290px;
+	height: 450px;
+	background-color: #777;
+}
+.xiaotu{
+	width: 150px;
+	height: 80px;
+	margin:30px 0px 0px 30px;
+	background-image: url(../images/muke.jpg);
+	background-size: 100% 100%;
+}
+.introduction{
+	width: 250px;
+	height: 300px;
+	padding-top: 30px;
+	padding-left: 30px;
+	color: #fff;
+	position: relative;
+}
+.introduction p{
+	margin-top: 10px;
+	font-size:14px;
+}
+.introduction p a{
+	position: absolute;
+	right:30px;
+	bottom: 10px; 
+	color: #fff;
+	font-size: 14px;
+}

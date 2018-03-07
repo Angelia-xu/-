@@ -1,0 +1,306 @@
+*{margin:0;padding:0;}
+body{font-family: '微软雅黑';background-color: #fff}
+a{text-decoration:none; color: #333;}
+li{list-style: none;}
+.left{float: left;}
+.right{float: right;}
+h1,h2,h3{font-weight: normal;}
+.clearfix:after{clear: both;content: '';display: block;}
+img { border:0; }
+.clearfix { zoom:1; }
+/*以上是公共样式*/
+
+.nav{
+	width: 1150px;
+	height: 160px;
+	margin: 0 auto;
+}
+.nav .left{
+	width: 400px;
+	height: 160px;
+	/*background-color: #ccc;*/
+}
+.nav img{
+	width: 220px;
+	height: 130px;
+	margin-top:30px;
+}
+.nav ul{
+	width: 625px;
+	height: 160px;
+}
+.nav ul li{
+	width: 125px;
+	height: 40px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 120px;
+	border-radius: 15px;
+}
+.nav ul li>a{
+	line-height: 40px;
+}
+.nav ul li:hover{
+	background-color: #a52025;
+}
+.nav ul li:hover a{
+	color: #f3f3f3;
+}
+#kc{
+	background-color:#a52025;
+	
+}
+#kc a{
+	color: #f3f3f3;
+}
+
+/*第二部分*/
+.wyr{
+	width:1150px;
+	height:1117px;
+	margin:60px auto;
+}
+.wyr .wyrzong{
+	width:1150px;
+	height:1117px;
+	float:left;
+	margin:0px auto;
+	position: relative;
+	}
+.wyr .wyrzong li{
+	position:relative;
+	color: #f0f0f0;
+	font-size: 21px;
+	line-height: 50px;
+}
+.wyr .wyrzong .wyrfirst{
+	overflow: hidden;
+	width:370px;
+	height:452px;
+	float: left;
+	margin-left:0; 
+		}
+.wyr .wyrzong .wyrtwo {
+	overflow: hidden;
+	width:370px;
+	height:452px;
+	float: left;
+	margin-left:20px;
+	}
+.wyr .wyrzong .wyrthree {
+	overflow: hidden;
+	width:370px;
+	height:452px;
+	float:left;
+	margin-left:780px;
+	margin-top: -452px;
+	}
+.wyr .wyrzong .wyrfour {
+	overflow: hidden;
+	width:760px;
+	height:456px;
+	float:left;
+	margin-top:20px; 
+	}
+.wyr .wyrzong .wyrfive {
+	overflow: hidden;
+	width:370px;
+	height:644px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+}
+.wyr .wyrzong .wyrsix{
+	width:760px;
+	height:160px;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 140px 140px;
+	background-position: 0px 19px;
+}
+.wyr .wyrzong .wyrsix .wyrbox6{
+	width: 320px;
+	height: 160px;
+	font-size: 20px;
+	color: #f58172;
+	position: absolute;
+	left: 120px;
+	top: 0px;
+}
+.wyr .wyrzong .wyrsix .wyrbox6 p{
+	width:240px;
+	height: 30px;
+	float: left;
+	padding-top: 0px;
+	color: #a52025;
+}
+.wyr .wyrzong .wyrsix>span{
+	width:200px;
+	height: 100px;
+	color: #a52025;
+	font-size: 18px;
+	position: absolute;
+	left: 300px;
+	bottom: 15px;
+
+}
+.wyr .wyrzong .wyrfirst img{
+	width:370px;
+	height:452px;
+	transition:1s;
+}
+.wyr .wyrzong .wyrtwo img{
+	width:370px;
+	height:452px;
+	transition:1s;
+}
+.wyr .wyrzong .wyrthree img{
+	width:370px;
+	height:452px;
+	transition:1s;
+}
+.wyr .wyrzong .wyrfour img{
+	width:760px;
+	height:456px;
+	transition:1s;
+}
+.wyr .wyrzong .wyrfive img{
+	width:370px;
+	height:644px;
+	transition:1s;
+}
+.wyr .wyrzong .wyrfirst .wyrbox1{
+	width:250px;
+	height:68px;
+	background-color:rgba(245,129,114,0);
+	position:absolute;
+	left:-320px;
+	top:280px;
+	visibility: hidden;
+	transition:1.5s; 
+	padding:40px;
+}
+
+.wyr .wyrzong .wyrtwo .wyrbox2{
+	width:250px;
+	height:68px;
+	background-color:rgba(245,129,114,0);
+	position:absolute;
+	left:-350px;
+	top:280px;
+	visibility: hidden;
+	 transition:1.5s; 
+	 padding:40px;
+	 
+}
+.wyr .wyrzong .wyrthree .wyrbox3{
+	width:280px;
+	height:108px;
+	background-color:rgba(245,129,114,0);
+	position:absolute;
+	left:-360px;
+	top:280px;
+	padding:40px 0px 0px 40px;
+	visibility: hidden;
+	transition:1.5s;
+}
+.wyr .wyrzong .wyrfour .wyrbox4{
+	width:640px;
+	height:76px;
+	background-color:rgba(245,129,114,0);
+	position:absolute;
+    left: -720px;
+    bottom:20px;
+    visibility: hidden;
+	transition:1.5s;
+	padding:40px;
+}
+.wyr .wyrzong .wyrfive .wyrbox5{
+	width:250px;
+	height:68px;
+	background-color:rgba(245,129,114,0);
+	position:absolute;
+	left:-680px;
+	bottom:20px;
+	visibility: hidden;
+	transition:1.5s;
+	padding:40px;
+}
+
+.wyr .wyrzong .wyr_dianzan{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	background-image: url(../images/zan1.png);
+	background-size: contain;
+}
+.wyr .wyrzong .wyr_dianzan>a{
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.wyr .wyrzong .wyr_dianzan:hover{
+	background-image: url(../images/zan.png);
+}
+.wyr .wyrzong .wyrfirst:hover .wyrbox1{
+	visibility: visible;
+	transform-origin:left;
+	transform: translateX(340px);
+	background-color:rgba(245,129,114,0.9);
+
+}
+.wyr .wyrzong .wyrfirst:hover img{
+	transform: scale(1.2);
+	transition:1s;
+}
+.wyr .wyrzong .wyrtwo:hover .wyrbox2{
+	visibility: visible;
+	transform-origin:left;
+	 transform: translateX(370px);
+	 background-color:rgba(245,129,114,0.9);
+
+}
+.wyr .wyrzong .wyrtwo:hover img{
+	transform: scale(1.2);
+	transition:1s;
+}
+.wyr .wyrzong .wyrthree:hover .wyrbox3{
+	visibility: visible;
+	transform-origin:left;
+	 transform: translateX(380px);
+	 background-color:rgba(245,129,114,0.9);
+
+}
+.wyr .wyrzong .wyrthree:hover img{
+	transform: scale(1.2);
+	transition:1s;
+}
+.wyr .wyrzong .wyrfour:hover .wyrbox4{
+	visibility: visible;
+	transform-origin:left;
+	 transform: translateX(740px);
+	 background-color:rgba(245,129,114,0.9);
+
+}
+.wyr .wyrzong .wyrfour:hover img{
+	transform: scale(1.2);
+	transition:1s;
+}
+.wyr .wyrzong .wyrfive:hover .wyrbox5{
+	visibility: visible;
+	transform-origin:left;
+	 transform: translateX(700px);
+	 background-color:rgba(245,129,114,0.9);
+
+}
+.wyr .wyrzong .wyrfive:hover img{
+	transform: scale(1.2);
+	transition:1s;
+}
