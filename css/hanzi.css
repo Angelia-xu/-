@@ -92,25 +92,24 @@ html {
 
 }
 body{
-	width: 800px;
+	width: 100%;
 }
 .nav img{
 	margin-top: 0px;
 	height: 100px;
 	width: 120px;
+	display: none;
 
 }
 .box{
-	width: 800px;
-	height: 800px;
+	width: 180px;
+	height:180px;
 }
 .box .img {
-	width: 60%;
-	height: 60%;
+	width: 200px;
+	height: 200px;
 	margin: 20px auto;
-   /* max-width: 100%;
-    height: auto;
-    width: auto\9;  ie8 */
+background-size: cover;
 
 }
 .nav{
@@ -123,21 +122,30 @@ body{
 .nav .left{
 	height: 0px;
 }
-.nav ul>li{
+.nav ul{
+	width: 100%;
 
+}
+.nav ul>li{
+	width: 20%;
+	font-size: 0.6rem;
 	margin-top:0px;
+
 }
 .box{
 	width: 100%;
 }
 
 h4{
-	font-size: 5rem;
+	font-size: 1.2rem;
 }
 p{
 	width: 100%;
 	height: auto;
-	font-size:5rem;
+	font-size:1.2rem;
+}
+.box .content{
+	width: 360px;
 }
 	
 ｝
