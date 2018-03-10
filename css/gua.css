@@ -1,0 +1,149 @@
+*{margin:0;padding:0;}
+body{font-family: '微软雅黑';background-color: #fff}
+a{text-decoration:none; color: #333;}
+li{list-style: none;}
+.left{float: left;}
+.right{float: right;}
+h1,h2,h3{font-weight: normal;}
+.clearfix:after{clear: both;content: '';display: block;}
+img { border:0; }
+.clearfix { zoom:1; }
+/*以上是公共样式*/
+
+.nav{
+	width: 1150px;
+	height: 160px;
+	margin: 0 auto;
+}
+.nav .left{
+	width: 400px;
+	height: 160px;
+	/*background-color: #ccc;*/
+}
+.nav img{
+	width: 220px;
+	height: 130px;
+	margin-top:30px;
+}
+.nav ul{
+	width: 625px;
+	height: 160px;
+}
+.nav ul li{
+	width: 125px;
+	height: 40px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 120px;
+	border-radius: 15px;
+}
+.nav ul li>a{
+	line-height: 40px;
+}
+.nav ul li:hover{
+	background-color: #a52025;
+}
+.nav ul li:hover a{
+	color: #f3f3f3;
+}
+#kc{
+	background-color:#a52025;
+	
+}
+#kc a{
+	color: #f3f3f3;
+}
+
+/*第二部分*/
+.box{
+	width: 1150px;
+	height: 300px;
+	color: #444;
+	margin: 20px auto;
+}
+.box .img{
+	width: 400px;
+	height: 400px;
+	margin: 50px 0px 40px 40px;
+	background-image: url(../images/gua.gif);
+	background-size: cover;
+}
+.box p{
+	margin-bottom:15px;
+	font-weight:bold;
+}
+.box p>span{
+	font-weight:normal;
+}
+.box .content{
+	width: 500px;
+	padding-left: 20px;
+	margin-top: 20px;
+	font-weight:normal;
+}
+
+@media  screen and (max-width: 768px) {
+html {
+    -webkit-text-size-adjust: none;
+
+}
+body{
+	width: 100%;
+}
+.nav img{
+	margin-top: 0px;
+	height: 100px;
+	width: 120px;
+	display: none;
+
+}
+.box{
+	width: 180px;
+	height:180px;
+}
+.box .img {
+	width: 200px;
+	height: 200px;
+	margin: 20px auto;
+background-size: cover;
+
+}
+.nav{
+	width: 100%;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+.nav .left{
+	height: 0px;
+}
+.nav ul{
+	width: 100%;
+
+}
+.nav ul>li{
+	width: 20%;
+	font-size: 0.6rem;
+	margin-top:0px;
+
+}
+.box{
+	width: 100%;
+}
+
+h4{
+	font-size: 1.2rem;
+}
+p{
+	width: 100%;
+	height: auto;
+	font-size:1.2rem;
+}
+.box .content{
+	width: 360px;
+}
+	
+｝
